@@ -10,6 +10,11 @@ public class App {
         window.setResizable(false);
         window.setTitle("My First 2D Game");
 
+        GamePanel gamePanel = new GamePanel();
+        window.add(gamePanel);
+
+        window.pack();
+
         window.setLocationRelativeTo(null);
         window.setVisible(true);
     }
